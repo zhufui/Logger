@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印VERBOSE日志" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印DEBUG日志" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印INFO日志" />
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印WARN日志" />
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印ERROR日志" />
+
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印ASSERT日志" />
+
+        <Button
+            android:id="@+id/btMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印Map" />
+
+        <Button
+            android:id="@+id/btSet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印Set" />
+
+        <Button
+            android:id="@+id/btList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印List" />
+
+        <Button
+            android:id="@+id/btArray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印Array" />
+
+        <Button
+            android:id="@+id/btJson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印Json" />
+
+        <Button
+            android:id="@+id/btXml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印Xml" />
+
+        <Button
+            android:id="@+id/btDisk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="将日志保存到sd卡上" />
+
+        <Button
+            android:id="@+id/btOpenSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打开日志设置页面" />
+    </LinearLayout>
+</ScrollView>
